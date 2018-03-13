@@ -7,8 +7,11 @@ The MQ-3 sensor requires a minimum warm-up time to operate accurately and as suc
 A peak-wave detector can be included to increase the time a user has to read the LED when alcohol is removed from the sensor (see report).
 
 Input voltage: 6.5 V
+
 Noise: 20u V p-p
+
 SNR: 330 dB
+
 Warm-up time: ~2 min
 
 <img src="https://github.com/IanGlass/Analogue-Alcohol-Breathalyzer/blob/master/Breathalyzer_Schematic.JPG" width="1000">
