@@ -14,5 +14,9 @@ SNR: 330 dB
 
 Warm-up time: ~2 min
 
+<p align="center">
 <img src="https://github.com/IanGlass/Analogue-Alcohol-Breathalyzer/blob/master/Breathalyzer-Schematic.JPG" width="1000">
+</p>
+<p align="center">
 <img src="https://github.com/IanGlass/Analogue-Alcohol-Breathalyzer/blob/master/Comparator.png" width="700">
+</p>
