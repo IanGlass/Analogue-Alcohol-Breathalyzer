@@ -9,9 +9,9 @@ The circuit can handle any input voltage between 6 and 18 V, using a LM7805 volt
 
 ## Sensor Bridge (Section 3.1)
 The alcohol breathalyzer works on the MQ-3 gas sensor, which is temporarily oxidized in the presence of alcohol, changing it's resistance. Resistance can be transduced using a voltage divider, in this case a load RL of 22 k ohm is used for the nominal 14 k ohm sensor.
-<p align="center">
+
 ![Sensor equation](https://latex.codecogs.com/gif.latex?V_%7Bsig%7D%3D%5Cfrac%7BV_%7Bcc%7DR_%7BL%7D%7D%7BR_%7BL%7D&plus;R_%7Bs%7D%7D)
-</p>
+
 <p align="center">
 <img src="https://github.com/IanGlass/Analogue-Alcohol-Breathalyzer/blob/master/Circuit-Design/Sensor.jpg" width="500">
 </p>
@@ -19,9 +19,9 @@ However, the heating effect of running current through a resistive element means
 
 ## Timing Circuit (Section 3.8)
 The timing circuit provides an LED to indicate when the breathalyzer has warmed up. The circuit works by using a comparator with an RC input and a voltage divider input. Once the RC circuit charges to a greater voltage than the divider, the comparator turns on. In other words, the comparator switches when the RC circuit (expressed below) exceeds the reference voltage on V- of 3.24 V.
-<p align="center">
+
 ![Charge up equation](https://latex.codecogs.com/gif.latex?v_%7B&plus;%7D%20%3D%20v_%7Bcmax%7D.e%5E%7Bt/rc%7D)
-</p>
+
 <p align="center">
 <img src="https://github.com/IanGlass/Analogue-Alcohol-Breathalyzer/blob/master/Circuit-Design/Timing-Circuit.jpg" width="500">
 </p>
